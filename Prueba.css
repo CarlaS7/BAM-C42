@@ -1,4 +1,7 @@
 .titulo {
-    color:blueviolet; 
+    display: flex;
+    justify-content: center;
+    color:rgb(33, 0, 63); 
     font-family: 'Cookie', cursive;
+    font-size: 50px;
 }
