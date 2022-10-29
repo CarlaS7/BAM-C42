@@ -7,16 +7,16 @@
 }
 
 body {
-    background-color: #fff59d;
+    background-color: #8423df;
 }
 
 .header {
     background-color: rgba(179, 87, 255, 0.404);
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+    align-items: stretch;
+    height: 75px;
+    padding: 20px 3%;
 }
 
 .header .logo {
@@ -49,7 +49,7 @@ body {
 
 .header .nav-links a {
     font-size: 700;
-    color: #1b3039;
+    color: #160d27;
     text-decoration: none;
 }
 
@@ -59,23 +59,23 @@ body {
 .header .boton button{
     margin-left: 20px;
     font-weight: 700;
-    color: #9a59cf;
+    color: #ffffff;
     padding: 9px 25px;
-    background: #eceff1;
+    background: #8330e2;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }
-.header .boton button:hover{
-    background-color: #e2f1f8;
-    color: #7406ce;
-    transform: scale(1.1);
-}
 .titulo {
     display: flex;
     justify-content: center;
-    color:rgb(33, 0, 63); 
+    color:rgb(75, 0, 146); 
     font-family: 'Cookie', cursive;
     font-size: 50px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
