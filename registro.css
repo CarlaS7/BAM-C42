@@ -1,0 +1,56 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(211, 210, 212);
+}
+
+.container {
+    width: 500px;
+    padding: 20px;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo {
+    text-align: center;
+    border: solid rgb(153, 0, 255) 1px;
+    pagging: 15px;
+    color: pink
+}
+
+.padre {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap 25px;
+    color:aqua
+}
+.nombre, .correo, .usuario, .clave {
+    display: flex;
+    flex-direction: column;
+}
+
+input { 
+    padding: 10px;
+
+}
+input:focus {
+    outline: solid red 2px;
+}
+
+.cuenta {
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.boton {
+    background: orange;
+    border: none;
+    color: white;
+}
