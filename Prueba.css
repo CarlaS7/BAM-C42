@@ -74,11 +74,6 @@ body {
     font-family: 'Cookie', cursive;
     font-size: 50px;
 }
-.video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .info {
     margin-left: 15%;
     margin-right: 15%;
@@ -86,3 +81,19 @@ body {
     font-size: 25px;
     margin-bottom: 5%;
 }
+.container {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .columnasx4 {
+    width: 24.333%;
+    float: left;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin: auto;
+  }
+  .columnasx4 img{
+    width: 100%;
+ }
