@@ -41,3 +41,8 @@
  .columnasx4 img{
    width: 100%;
  }
+ .video {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 40%;
+}
